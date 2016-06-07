@@ -3,4 +3,6 @@
 <property name="name" value="processOrderTask-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<dataHolder inputId="" name="#E9E371" type="basicType" outId="result" value="java.lang.Boolean" id="Approved"/>
+<dataHolder inputId="order" name="#E9E371" type="dataModelerEntry" outId="" value="com.matrix.multiple_instance_human_task.Order" id="orderField"/>
 </form>
