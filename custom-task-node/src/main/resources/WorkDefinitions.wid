@@ -1,5 +1,6 @@
 import org.drools.core.process.core.datatype.impl.type.StringDataType;
 import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
+import com.jspeed.bpm.custom.servicetask.model.CustomerInformation;
 
 [
   [
@@ -56,6 +57,18 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
     ],
     "displayName" : "REST",
     "icon" : "defaultservicenodeicon.png"
+  ],
+  
+  [
+    "name" : "FetchCustomerInformation",
+    "parameters" : [
+        "CustomerId" : new StringDataType()
+    ],
+    "results" : [
+        "CustomerInformation" : new CustomerInformation(),
+    ],
+    "displayName" : "Fetch Customer Information",
+    "icon" : "bezeq.jpg"
   ]
 
 ]
