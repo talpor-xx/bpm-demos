@@ -61,17 +61,12 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
   [
     "name" : "REST",
     "parameters" : [
-        "Url" : new StringDataType(),
-        "Method" : new StringDataType(),
-        "ConnectTimeout" : new StringDataType(),
-        "ReadTimeout" : new StringDataType(),
-        "Username" : new StringDataType(),
-        "Password" : new StringDataType()
+        "CustomerId" : new StringDataType()
     ],
     "results" : [
-        "Result" : new ObjectDataType(),
+        "CustomerInformation" : new ObjectDataType(),
     ],
-    "displayName" : "FetchCustomerInformation",
+    "displayName" : "Fetch Customer Information",
     "icon" : "bezeq.jpg"
   ]
   
