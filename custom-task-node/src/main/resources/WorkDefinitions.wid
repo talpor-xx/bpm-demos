@@ -59,7 +59,7 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
   ]
 
   [
-    "name" : "Rest222",
+    "name" : "REST",
     "parameters" : [
         "Url" : new StringDataType(),
         "Method" : new StringDataType(),
