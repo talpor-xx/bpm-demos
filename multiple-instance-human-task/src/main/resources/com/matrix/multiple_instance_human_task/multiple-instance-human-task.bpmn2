@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bpmn2:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.omg.org/bpmn20" xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:bpsim="http://www.bpsim.org/schemas/1.0" xmlns:color="http://www.omg.org/spec/BPMN/non-normative/color" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:drools="http://www.jboss.org/drools" id="_ZlZ2oCykEeaZtoRDeQC_vQ" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd http://www.jboss.org/drools drools.xsd http://www.bpsim.org/schemas/1.0 bpsim.xsd" exporter="jBPM Designer" exporterVersion="6.2.0" expressionLanguage="http://www.mvel.org/2.0" targetNamespace="http://www.omg.org/bpmn20" typeLanguage="http://www.java.com/javaTypes">
+<bpmn2:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.omg.org/bpmn20" xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:bpsim="http://www.bpsim.org/schemas/1.0" xmlns:color="http://www.omg.org/spec/BPMN/non-normative/color" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:drools="http://www.jboss.org/drools" id="_flaRQCykEeaZtoRDeQC_vQ" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd http://www.jboss.org/drools drools.xsd http://www.bpsim.org/schemas/1.0 bpsim.xsd" exporter="jBPM Designer" exporterVersion="6.2.0" expressionLanguage="http://www.mvel.org/2.0" targetNamespace="http://www.omg.org/bpmn20" typeLanguage="http://www.java.com/javaTypes">
   <bpmn2:itemDefinition id="_orders_collectionItem" structureRef="java.util.ArrayList"/>
   <bpmn2:itemDefinition id="_orders_resultsItem" structureRef="java.util.ArrayList"/>
   <bpmn2:process id="multiple-instance-human-task.multiple-instance-human-task" drools:packageName="org.jbpm" drools:version="1.0" name="multiple-instance-human-task" isExecutable="true">
@@ -29,7 +29,7 @@ for (int i=0; i<2; i++){
     com.matrix.multiple_instance_human_task.Order order = new com.matrix.multiple_instance_human_task.Order();
     order.setOrderId(i);
     order.setDescription("order number: " + i);
-    orderCollection.add(order);
+    ordersCollection.add(order);
 }
 
 System.out.println("initializing orders sub process results");
@@ -48,54 +48,54 @@ kcontext.setVariable("orders_results", ordersRresults);
     </bpmn2:endEvent>
     <bpmn2:sequenceFlow id="_0EA8FD10-F2E8-4471-B531-ED736857E442" drools:selectable="true" color:background-color="#000000" color:border-color="#000000" color:color="#000000" sourceRef="_8DFA897E-2A21-4FD0-A3D7-A4989F949751" targetRef="_45209CEA-2317-465E-AE38-DAD9A2AD3D4B"/>
   </bpmn2:process>
-  <bpmndi:BPMNDiagram id="_ZlZ2oSykEeaZtoRDeQC_vQ">
-    <bpmndi:BPMNPlane id="_ZlZ2oiykEeaZtoRDeQC_vQ" bpmnElement="multiple-instance-human-task.multiple-instance-human-task">
-      <bpmndi:BPMNShape id="_ZlZ2oyykEeaZtoRDeQC_vQ" bpmnElement="processStartEvent">
+  <bpmndi:BPMNDiagram id="_flaRQSykEeaZtoRDeQC_vQ">
+    <bpmndi:BPMNPlane id="_flaRQiykEeaZtoRDeQC_vQ" bpmnElement="multiple-instance-human-task.multiple-instance-human-task">
+      <bpmndi:BPMNShape id="_flaRQyykEeaZtoRDeQC_vQ" bpmnElement="processStartEvent">
         <dc:Bounds height="30.0" width="30.0" x="120.0" y="165.0"/>
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="_ZlZ2pCykEeaZtoRDeQC_vQ" bpmnElement="_8DFA897E-2A21-4FD0-A3D7-A4989F949751">
+      <bpmndi:BPMNShape id="_flaRRCykEeaZtoRDeQC_vQ" bpmnElement="_8DFA897E-2A21-4FD0-A3D7-A4989F949751">
         <dc:Bounds height="80.0" width="100.0" x="195.0" y="140.0"/>
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNEdge id="_ZlZ2pSykEeaZtoRDeQC_vQ" bpmnElement="_CD9A9A90-C873-45D1-9B91-A78D3E59D837">
+      <bpmndi:BPMNEdge id="_flaRRSykEeaZtoRDeQC_vQ" bpmnElement="_CD9A9A90-C873-45D1-9B91-A78D3E59D837">
         <di:waypoint xsi:type="dc:Point" x="135.0" y="180.0"/>
         <di:waypoint xsi:type="dc:Point" x="245.0" y="180.0"/>
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNShape id="_ZlZ2piykEeaZtoRDeQC_vQ" bpmnElement="_45209CEA-2317-465E-AE38-DAD9A2AD3D4B">
+      <bpmndi:BPMNShape id="_flaRRiykEeaZtoRDeQC_vQ" bpmnElement="_45209CEA-2317-465E-AE38-DAD9A2AD3D4B">
         <dc:Bounds height="28.0" width="28.0" x="340.0" y="166.0"/>
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNEdge id="_ZlZ2pyykEeaZtoRDeQC_vQ" bpmnElement="_0EA8FD10-F2E8-4471-B531-ED736857E442">
+      <bpmndi:BPMNEdge id="_flaRRyykEeaZtoRDeQC_vQ" bpmnElement="_0EA8FD10-F2E8-4471-B531-ED736857E442">
         <di:waypoint xsi:type="dc:Point" x="245.0" y="180.0"/>
         <di:waypoint xsi:type="dc:Point" x="354.0" y="180.0"/>
       </bpmndi:BPMNEdge>
     </bpmndi:BPMNPlane>
   </bpmndi:BPMNDiagram>
-  <bpmn2:relationship id="_ZlZ2qCykEeaZtoRDeQC_vQ" type="BPSimData">
+  <bpmn2:relationship id="_flaRSCykEeaZtoRDeQC_vQ" type="BPSimData">
     <bpmn2:extensionElements>
       <bpsim:BPSimData>
         <bpsim:Scenario xsi:type="bpsim:Scenario" id="default" name="Simulationscenario">
           <bpsim:ScenarioParameters xsi:type="bpsim:ScenarioParameters" baseTimeUnit="min"/>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_0EA8FD10-F2E8-4471-B531-ED736857E442" id="_ZlZ2qSykEeaZtoRDeQC_vQ">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_0EA8FD10-F2E8-4471-B531-ED736857E442" id="_flaRSSykEeaZtoRDeQC_vQ">
             <bpsim:ControlParameters xsi:type="bpsim:ControlParameters">
               <bpsim:Probability xsi:type="bpsim:Parameter">
                 <bpsim:FloatingParameter value="100.0"/>
               </bpsim:Probability>
             </bpsim:ControlParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_45209CEA-2317-465E-AE38-DAD9A2AD3D4B" id="_ZlZ2qiykEeaZtoRDeQC_vQ">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_45209CEA-2317-465E-AE38-DAD9A2AD3D4B" id="_flaRSiykEeaZtoRDeQC_vQ">
             <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
               <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
                 <bpsim:UniformDistribution max="10.0" min="5.0"/>
               </bpsim:ProcessingTime>
             </bpsim:TimeParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_CD9A9A90-C873-45D1-9B91-A78D3E59D837" id="_ZlZ2qyykEeaZtoRDeQC_vQ">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_CD9A9A90-C873-45D1-9B91-A78D3E59D837" id="_flaRSyykEeaZtoRDeQC_vQ">
             <bpsim:ControlParameters xsi:type="bpsim:ControlParameters">
               <bpsim:Probability xsi:type="bpsim:Parameter">
                 <bpsim:FloatingParameter value="100.0"/>
               </bpsim:Probability>
             </bpsim:ControlParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="processStartEvent" id="_ZlZ2rCykEeaZtoRDeQC_vQ">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="processStartEvent" id="_flaRTCykEeaZtoRDeQC_vQ">
             <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
               <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
                 <bpsim:UniformDistribution max="10.0" min="5.0"/>
@@ -107,7 +107,7 @@ kcontext.setVariable("orders_results", ordersRresults);
               </bpsim:Probability>
             </bpsim:ControlParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_8DFA897E-2A21-4FD0-A3D7-A4989F949751" id="_ZlZ2rSykEeaZtoRDeQC_vQ">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_8DFA897E-2A21-4FD0-A3D7-A4989F949751" id="_flaRTSykEeaZtoRDeQC_vQ">
             <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
               <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
                 <bpsim:UniformDistribution max="10.0" min="5.0"/>
@@ -122,7 +122,7 @@ kcontext.setVariable("orders_results", ordersRresults);
         </bpsim:Scenario>
       </bpsim:BPSimData>
     </bpmn2:extensionElements>
-    <bpmn2:source>_ZlZ2oCykEeaZtoRDeQC_vQ</bpmn2:source>
-    <bpmn2:target>_ZlZ2oCykEeaZtoRDeQC_vQ</bpmn2:target>
+    <bpmn2:source>_flaRQCykEeaZtoRDeQC_vQ</bpmn2:source>
+    <bpmn2:target>_flaRQCykEeaZtoRDeQC_vQ</bpmn2:target>
   </bpmn2:relationship>
 </bpmn2:definitions>
