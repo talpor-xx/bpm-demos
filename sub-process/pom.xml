@@ -7,6 +7,14 @@
   <version>1.0-SNAPSHOT</version>
   <packaging>kjar</packaging>
   <name>sub-process</name>
+  <dependencies>
+    <dependency>
+      <groupId>com.matrix</groupId>
+      <artifactId>send-email</artifactId>
+      <version>1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
   <repositories>
     <repository>
       <id>guvnor-m2-repo</id>
