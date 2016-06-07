@@ -61,7 +61,7 @@ import com.jspeed.bpm.custom.servicetask.model.CustomerInformation;
   ],
 
   [
-    "name" : "REST",
+    "name" : "FetchCustomerInformation",
     "parameters" : [
         "CustomerId" : new StringDataType()
     ],
