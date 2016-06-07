@@ -1,5 +1,6 @@
 import org.drools.core.process.core.datatype.impl.type.StringDataType;
 import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
+import com.jspeed.bpm.custom.servicetask.CustomerInformation;
 
 [
   [
@@ -64,7 +65,7 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
         "CustomerId" : new StringDataType()
     ],
     "results" : [
-        "CustomerInformation" : new ObjectDataType(),
+        "CustomerInformation" : new CustomerInformation(),
     ],
     "displayName" : "Fetch Customer Information",
     "icon" : "bezeq.jpg"
