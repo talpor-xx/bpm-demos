@@ -71,8 +71,8 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
     "results" : [
         "Result" : new ObjectDataType(),
     ],
-    "displayName" : "REST222",
-    "icon" : "defaultservicenodeicon.png"
+    "displayName" : "FetchCustomerInformation",
+    "icon" : "bezeq.jpg"
   ]
   
   
