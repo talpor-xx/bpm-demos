@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.matrix</groupId>
   <artifactId>send-email</artifactId>
-  <version>1.1</version>
+  <version>1.1-SNAPSHOT</version>
   <packaging>kjar</packaging>
   <name>send-email</name>
   <description>this demo shows how to send email in a business process</description>
