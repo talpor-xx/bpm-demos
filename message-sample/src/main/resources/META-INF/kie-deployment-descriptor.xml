@@ -50,7 +50,7 @@
             <resolver>mvel</resolver>
             <identifier>new org.jbpm.bpmn2.handler.SendTaskHandler()</identifier>
             <parameters/>
-            <name>SendTask</name>
+            <name>Send Task</name>
         </work-item-handler>
     </work-item-handlers>
     <environment-entries/>
