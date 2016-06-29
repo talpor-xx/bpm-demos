@@ -25,6 +25,15 @@ import com.jspeed.bpm.custom.servicetask.model.CustomerInformation;
   ],
 
   [
+    "name" : "Log2",
+    "parameters" : [
+      "Message" : new StringDataType()
+    ],
+    "displayName" : "Log2",
+    "icon" : "defaultlogicon.gif"
+  ],
+
+[
     "name" : "WebService",
     "parameters" : [
         "Url" : new StringDataType(),
