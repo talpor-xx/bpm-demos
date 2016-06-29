@@ -68,7 +68,7 @@ import com.jspeed.bpm.custom.servicetask.model.CustomerInformation;
         "CustomerInformation" : new CustomerInformation(),
     ],
     "displayName" : "Fetch Customer Information",
-    "icon" : "bezeq.jpg"
+    "icon" : "bezeq-logo.jpg"
   ]
 
 ]
