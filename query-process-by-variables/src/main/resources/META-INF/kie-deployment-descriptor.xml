@@ -30,12 +30,6 @@
         </work-item-handler>
         <work-item-handler>
             <resolver>mvel</resolver>
-            <identifier>new org.jbpm.process.workitem.email.EmailWorkItemHandler("smtp.gmail.com", "587", "talpor30@gmail.com", "husky125", "true")</identifier>
-            <parameters/>
-            <name>Email</name>
-        </work-item-handler>
-        <work-item-handler>
-            <resolver>mvel</resolver>
             <identifier>new com.jspeed.bpm.custom.servicetask.MyNodeWorkItemHandler()</identifier>
             <parameters/>
             <name>FetchCustomerInformation</name>
