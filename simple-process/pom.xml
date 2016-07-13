@@ -6,7 +6,7 @@
   <artifactId>aaa</artifactId>
   <version>1.0</version>
   <packaging>kjar</packaging>
-  <name>aaa</name>
+  <name>simple-process</name>
   <repositories>
     <repository>
       <id>guvnor-m2-repo</id>
