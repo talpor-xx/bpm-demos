@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.matrix</groupId>
   <artifactId>send-email-from-script</artifactId>
-  <version>1.0</version>
+  <version>1.0-snapshot</version>
   <packaging>kjar</packaging>
   <name>send-email-from-script</name>
   <repositories>
