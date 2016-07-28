@@ -1,5 +1,5 @@
 <kmodule xmlns="http://jboss.org/kie/6.0.0/kmodule" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <kbase name="main-kbase" default="true" eventProcessingMode="stream" equalsBehavior="identity" packages="com.matrix.call_process_in_different_project" includes="sub-kbase">
+  <kbase name="main-kbase" default="true" eventProcessingMode="stream" equalsBehavior="identity" packages="com.matrix.call_process_in_different_project">
     <ksession name="session1" type="stateful" default="true" clockType="realtime"/>
   </kbase>
 </kmodule>
