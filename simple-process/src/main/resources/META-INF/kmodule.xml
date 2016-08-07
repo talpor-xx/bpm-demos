@@ -2,7 +2,7 @@
   <kbase name="sub-kbase" default="false" eventProcessingMode="stream" equalsBehavior="identity" packages="*">
     <ksession name="session-sub" type="stateful" default="false" clockType="realtime"/>
   </kbase>
-  <kbase name="for-build-only" default="false" eventProcessingMode="stream" equalsBehavior="identity" packages="*">
+  <kbase name="for-build-only" default="true" eventProcessingMode="stream" equalsBehavior="identity" packages="*">
     <ksession name="session-for-build" type="stateful" default="true" clockType="realtime"/>
   </kbase>
 </kmodule>
