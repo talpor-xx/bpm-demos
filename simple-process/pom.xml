@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.matrix</groupId>
   <artifactId>simple-process</artifactId>
-  <version>3.3</version>
+  <version>3-SNAPSHOT</version>
   <packaging>kjar</packaging>
   <name>simple-process</name>
   <repositories>
