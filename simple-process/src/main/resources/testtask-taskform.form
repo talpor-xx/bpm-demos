@@ -11,5 +11,19 @@
 <property name="outputBinding" value="torderid"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
+<field position="1" name=":decorator_0" type="HTMLLabel" id="1953804058">
+<property name="fieldRequired" value="false"/>
+<property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;this is a test form&lt;/p&gt;
+quot;quot;dequot;,quot;&lt;p&gt;this is a test form&lt;/p&gt;
+quot;quot;enquot;,quot;&lt;p&gt;this is a test form&lt;/p&gt;
+quot;quot;esquot;,quot;&lt;p&gt;this is a test form&lt;/p&gt;
+quot;quot;frquot;,quot;&lt;p&gt;this is a test form&lt;/p&gt;
+quot;quot;jaquot;,quot;&lt;p&gt;this is a test form&lt;/p&gt;
+quot;quot;ptquot;,quot;&lt;p&gt;this is a test form&lt;/p&gt;
+quot;quot;zhquot;,quot;&lt;p&gt;this is a test form&lt;/p&gt;
+quot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
+</field>
 <dataHolder inputId="torderid" name="#E9E371" type="basicType" outId="torderid" value="java.lang.String" id="orderid"/>
 </form>
